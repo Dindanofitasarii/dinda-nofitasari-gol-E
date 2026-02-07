@@ -14,7 +14,7 @@
         }
 
         header {
-            background-color: #0f172a;
+            background-color: #610524;
             color: #ffffff;
             padding: 40px 20px;
             text-align: center;
@@ -28,7 +28,7 @@
 
         h2 {
             color: #0f172a;
-            border-bottom: 2px solid #0f172a;
+            border-bottom: 2px solid #610524;
             padding-bottom: 5px;
         }
 
@@ -41,7 +41,7 @@
         }
 
         footer {
-            background-color: #0f172a;
+            background-color: #610524;
             color: #ffffff;
             text-align: center;
             padding: 15px;
@@ -55,7 +55,7 @@
     <header>
         <h1>Dinda Nofitasari</h1>
         <p>Mahasiswa Teknik Informatika</p>
-        <p>NIM E41242053 | Golongan E</p>
+        <p>E41242053 | Golongan E</p>
     </header>
 
     <!-- Tentang Saya -->
