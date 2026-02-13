@@ -9,8 +9,10 @@ class Portofolio extends Model
 {
     use HasFactory;
 
+    // Nama tabel di database (Opsional jika namanya sudah jamak/plural)
     protected $table = 'portofolios';
 
+    // Kolom yang diizinkan untuk diisi secara massal
     protected $fillable = [
         'nama',
         'nim',

@@ -2,24 +2,24 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
-    use WithoutModelEvents;
-
-    /**
-     * Seed the application's database.
-     */
     public function run(): void
     {
-        // User::factory(10)->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        DB::table('portofolios')->insert([
+            'nama' => 'Dinda Nofitasari',
+            'nim' => 'E41242053',
+            'golongan' => 'E',
+            'jurusan' => 'Teknologi Informasi',
+            'program_studi' => 'Teknik Informatika',
+            'tentang_saya' => 'Saya adalah mahasiswa semester 4 yang fokus pada pengembangan aplikasi web menggunakan Laravel dan mobile dengan Flutter.',
+            'email' => 'sarinofitadinda@contoh.com',
+            'instagram' => '@dindaa.ns21',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
     }
 }
