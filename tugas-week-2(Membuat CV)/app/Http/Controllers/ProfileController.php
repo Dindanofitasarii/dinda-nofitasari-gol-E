@@ -18,9 +18,5 @@ class ProfileController extends Controller
         return view('portofolio'); 
     }
 
-    public function contact() 
-    {
-        
-        return view('welcome'); 
-    }
+    
 }
